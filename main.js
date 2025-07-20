@@ -24,4 +24,7 @@ let favoriteFood = ['Pizza', 'Tacos', 'Steak', 'Ice Cream', 'Cheeseburgers'];
 let firstFood = favoriteFood.find(food => food.length > 4);
 let firstFoodIndex = favoriteFood.findIndex(food => food.length > 4);
 console.log(firstFood);
-console.log(firstFoodIndex); // Output: [85, 90, 100]
+console.log(firstFoodIndex); 
+// Output:
+// Pizza
+// 0
