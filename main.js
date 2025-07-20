@@ -1,9 +1,13 @@
 //Task 1:
 let cities = ['Chicago', 'St. Louis', 'Phoenix', 'Kansas City', 'New York'];
 
-cities.forEach(city => {
-    console.log(city.toUpperCase());
-});
+cities.forEach(city => console.log(city.toUpperCase()));
+// Output:
+// CHICAGO
+// ST. LOUIS
+// PHOENIX
+// KANSAS CITY
+// NEW YORK
 
 //Task 2:
 let numbers = [1, 2, 3, 4, 5];
@@ -20,4 +24,4 @@ let favoriteFood = ['Pizza', 'Tacos', 'Steak', 'Ice Cream', 'Cheeseburgers'];
 let firstFood = favoriteFood.find(food => food.length > 4);
 let firstFoodIndex = favoriteFood.findIndex(food => food.length > 4);
 console.log(firstFood);
-console.log(firstFoodIndex);
+console.log(firstFoodIndex); // Output: [85, 90, 100]
